@@ -1,15 +1,18 @@
 .formContainer {
     border: 1px solid;
-    border-radius: 7px;
-    display: flex;
+    border-radius: 20px;
+    background-color: rgb(111, 108, 108);
     flex-direction: column;
     gap: 10px;
     padding: 10px;
     width: 408px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-input {
-    width: 400px;
+.formInput {
+    width: 200px;
 }
 
 .validationMsg {
@@ -17,6 +20,17 @@ input {
 }
 
 .submitBtn {
-    width: 100px;
+    width: 150px;
+    height: 30px;
     margin: 0 auto;
+    background-color: orangered;
+    border: 1px solid grey;
+    border-radius: 7px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.submitBtn:hover {
+    border-color: black;
 }

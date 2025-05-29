@@ -1,29 +1,39 @@
 .contact {
     border: 1px solid;
-    border-radius: 7px;
+    border-radius: 20px;
     display: flex;
     padding: 10px;
+    background-color: rgb(111, 108, 108);
 }
 
 .contactInfo {
-    width: 150px;
+    width: 140px;
     position: relative;
 }
 
 .contactText {
-    padding-left: 20px;
+    padding-left: 19px;
 }
 
 .contactNameIcon {
     position: absolute;
-    top: 16px;
+    top: 57px;
 }
 
 .contactNumberIcon {
     position: absolute;
+    top: 20px;
 }
 
 .deleteButton {
-    height: 25px;
+    height: 35px;
+    width: 70px;
     margin: auto auto;
+    background-color: orangered;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+
+.deleteButton:hover {
+    border-color: black;
 }
