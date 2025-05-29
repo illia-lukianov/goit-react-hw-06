@@ -1,0 +1,29 @@
+.contact {
+    border: 1px solid;
+    border-radius: 7px;
+    display: flex;
+    padding: 10px;
+}
+
+.contactInfo {
+    width: 150px;
+    position: relative;
+}
+
+.contactText {
+    padding-left: 20px;
+}
+
+.contactNameIcon {
+    position: absolute;
+    top: 16px;
+}
+
+.contactNumberIcon {
+    position: absolute;
+}
+
+.deleteButton {
+    height: 25px;
+    margin: auto auto;
+}
